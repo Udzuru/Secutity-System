@@ -1,0 +1,192 @@
+﻿@{
+    ViewData["Title"] = "Личная заявка";
+    string Surn="";
+}
+@model web_propusk.Models.Zai_Per
+<style>
+    .main {
+        text-align: center;
+    }
+
+    .temp {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cont {
+        background: orange;
+        border-radius: 10px;
+        flex-grow: 0;
+        margin: 5px;
+        padding: 0 0 8 0;
+    }
+
+    .cont1 {
+        background: orange;
+        border-radius: 10px;
+        flex-grow: 1;
+        margin: 5px;
+        padding: 0 0 8 0;
+    }
+
+        .cont1 input {
+            width: 100%;
+        }
+
+        .vis select {
+            width: 100%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .cont1 label {
+            text-align: left;
+            margin-left: 20px;
+        }
+
+    .cont2 {
+        background: orange;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 0 0 8 0;
+    }
+
+    .temp0 {
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head {
+        background: #ff8c00;
+        padding: 7px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    input {
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .vis {
+        padding: 5 30;
+    }
+
+    .tempain {
+        clear: both;
+        text-align: right;
+        line-height: 35px;
+    }
+
+    label {
+        float: left;
+        padding-right: 10px;
+    }
+
+    .down {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        align-items: center;
+    }
+
+        .down a {
+            margin: 10px;
+        }
+
+</style>
+
+<div class="main">
+    <h2>Форма записи на посещение</h2>
+    <form  method="post" enctype="multipart/form-data">
+    <div class="temp">
+        <div class="cont">
+
+            <div class="head">
+                Информация для пропуска
+            </div>
+            Срок действия заявки:<br />
+            с
+                <input asp-for="zaivki.FromDate" /> по <input asp-for="zaivki.ToDate" /><br />
+                Цель посещения:<br /> <select asp-for="Type">
+                    @foreach(Typ i in ViewBag.typ)
+                    {
+                        <option>@i.Type</option>
+                    }
+                    
+            </select>
+
+        </div>
+       
+        <div class="cont1">
+
+            <div class="head">
+                Принимающая сторона
+            </div>
+            <div class="vis">
+                <label>Подразделение*:</label><br />
+                    <select asp-for="Where">
+                        @foreach (Employer i in ViewBag.emp)
+                        {
+                            <option>@i.Where</option>
+                        }
+
+                    </select><br />
+
+                <label>ФИО*:</label><br />
+               
+                    <input/>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class="cont2">
+
+        <div class="head">
+            Информация о посетителе
+        </div>
+        <div class="temp0">
+            <div class="tempain">
+                <label>Фамилия*:</label><input asp-for="person.Surname"></input><br />
+                <label>Имя*: </label><input asp-for="person.Name"></input><br />
+                <label>Отчество*:</label><input asp-for="person.Patronimic"></input><br />
+                <label>Телефон:</label><input asp-for="person.PhoneNumber"></input><br />
+                <label>Email*:</label><input asp-for="person.EMail"></input><br />
+            </div>
+            <div class="tempain">
+                <label>Организация:</label><input asp-for="person.Organization"></input><br />
+                <label>Примечание:</label><input asp-for = "person.Comment"></input><br />
+                <label>Дата рождения:</label><input asp-for="person.DateOfBirth"></input><br />
+                <label>Серия:</label><input asp-for = "person.PassportSeria"></input><br />
+                <label>Номер*:</label><input asp-for="person.PassportNumber"></input><br />
+            </div>
+            <div class="tempc">
+                <img src="~/без названия.png" /><br/>
+                <p>Загрузить фото</p>
+                <input asp-for="Photo" /><br>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="down">
+        <div class="cont1">
+            <div class="head">Прикрепляемые документы</div>
+            <a href="#">Прикрепить файл</a>
+        </div>
+        <div>
+            <a href="#">Очистить форму</a>
+                <input class="positive" type="submit" value="Отправить" />
+        </div>
+    </div>
+    </form>
+
+
+</div>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script>

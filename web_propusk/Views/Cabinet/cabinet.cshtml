@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Личный кабинет";
+    Zaivki[] vivod = ViewBag.baze;
+    Typ[] typ = ViewBag.typ;
+    List<string> lkl = new List<string>();
+    foreach(Employer temp in ViewBag.Wher)
+    {
+        lkl.Add(temp.Where);
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4"></h1>
+    <h2 class="display-4">Личный кабинет</h2>
+    <p><a class=batn href="~/Cabinet/select">Подать заявление</a></p>
+    <p>Добро пожаловать в личный кабинет</p>
+    <p>Ваши заявления:</p>
+    <p>Одобренные:</p>
+    @if (vivod != null)
+    {
+        @foreach (Zaivki k in vivod)
+        {
+            @if (k.Status == "Одобрено")
+            {
+                var p = typ.Where(p => p.Id == k.Type).FirstOrDefault();
+                <p>Прийти к: @k.Date.Value.Day.@k.Date.Value.Month.@k.Date.Value.Year @k.Date.Value.Hour:@k.Date.Value.Minute В подразделение: @lkl[Convert.ToInt32(k.Where)-1] </p>
+            }
+
+        }
+        <p>На рассмотрении:</p>
+        @foreach (Zaivki k in vivod)
+        {
+            @if (k.Status == null)
+            {
+                k.Status = "На рассмотрении";
+                var p = typ.Where(p => p.Id == k.Type).FirstOrDefault();
+                <p>@p.Type @k.Date.Value.Day.@k.Date.Value.Month.@k.Date.Value.Year @k.Status </p>
+            }
+
+        }
+
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script>
+
+    }
+</div>

@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<style>
+    .one {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .two {
+        background: orange;
+        text-align: center;
+    }
+
+    img {
+        margin: 20px 40px 0;
+        width: 100px;
+        heigth: 200px;
+    }
+
+    p {
+        color: black;
+        padding: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+@{
+    <p>
+    <div class="one">
+            <a style="display:block" href="~/Cabinet/lichno">
+            <div class="two">
+                 <img src="~/без названия.png" />
+                 <p>Личное посещение</p>
+            </div>
+            </a>
+            <a style="display:block" href="~/Cabinet/lichno">
+            <div class="two">
+                <img src="~/images.png" />
+                
+                <p>Групповое посещение</p>
+            </div>
+            </a>
+    </div>
+    </p>
+}

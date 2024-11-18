@@ -1,0 +1,77 @@
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.exe
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.deps.json
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.dll
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.pdb
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.g.resources
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.dll
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\refint\WpfApp1.dll
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.pdb
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\ref\WpfApp1.dll
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WorkList.g.cs
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\WorkList.baml
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\Info.g.cs
+C:\Users\Arnox\Desktop\Курсач\web\WpfApp1\obj\Debug\net7.0-windows\Info.baml
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.exe
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.deps.json
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\bin\Debug\net7.0-windows\WpfApp1.pdb
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\Info.g.cs
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WorkList.g.cs
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\Info.baml
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WorkList.baml
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.g.resources
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\refint\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.pdb
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Олимпиада\WpfApp1\obj\Debug\net7.0-windows\ref\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\bin\Debug\net7.0-windows\WpfApp1.exe
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\bin\Debug\net7.0-windows\WpfApp1.deps.json
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\bin\Debug\net7.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\bin\Debug\net7.0-windows\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\bin\Debug\net7.0-windows\WpfApp1.pdb
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\Info.g.cs
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WorkList.g.cs
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\Info.baml
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WorkList.baml
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.g.resources
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\refint\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.pdb
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\ref\WpfApp1.dll
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\App.baml
+C:\Users\Admin\Desktop\Олимпиада\obshii otedel\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs

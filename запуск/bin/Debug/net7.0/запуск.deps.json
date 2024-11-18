@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "запуск/1.0.0": {
+        "dependencies": {
+          "SF2022User{NN}Lib": "1.0.0"
+        },
+        "runtime": {
+          "запуск.dll": {}
+        }
+      },
+      "SF2022User{NN}Lib/1.0.0": {
+        "runtime": {
+          "SF2022User{NN}Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "запуск/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SF2022User{NN}Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

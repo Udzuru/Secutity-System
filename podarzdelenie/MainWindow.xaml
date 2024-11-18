@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Height="150" Background="White" BorderBrush="Red">
+            <Border.Effect>
+                <DropShadowEffect Color="#FFFF5F14"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock FontSize="20" Background="#FFFF7500" Margin="0,0,0,20">Хранитель ПРО</TextBlock>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock x:Name="temp" Margin="10">Введите код соотрудника</TextBlock>
+            <TextBox x:Name="txt" BorderBrush="#FFFF7500"></TextBox>
+            <Button x:Name="enter" Click="enter_Click" Margin="10" Background="#FFFFDDDD" BorderBrush="#FFFF6106">Войти</Button>
+            </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

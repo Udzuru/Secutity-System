@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Регистрация";
+}
+@model web_propusk.Models.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Регистрация</h1>
+<p>@ViewBag.Mess</p>
+<div>
+    <form method="post" action=" ">
+        <p>
+            <label asp-for="Name">Имя:</label><br/>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </p>
+        <p>
+            <label asp-for="Surname">Фамилия:</label><br />
+            <input asp-for="Surname" />
+            <span asp-validation-for="Surname"></span>
+        </p>
+        <p>
+            <label asp-for="Login">Логин:</label><br />
+            <input asp-for="Login" />
+            <span asp-validation-for="Login"></span>
+        </p>
+        <p>
+            <label asp-for="Email">Эмейл:</label><br />
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </p>
+        <p>
+            <label asp-for="Password">Пароль:</label><br />
+            <input asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </p>
+        <p>
+            <label asp-for="Rep_Password">Повторите пароль:</label><br />
+            <input asp-for="Rep_Password" />
+            <span asp-validation-for="Rep_Password"></span>
+        </p>
+        <p>
+            <input class="positive" type="submit" value="Зарегестрироваться" />
+        </p>
+        
+    </form>
+</div>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script>
+
